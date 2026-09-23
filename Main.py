@@ -43,6 +43,4 @@ y_pred = model.predict(X_test)
 # Accuracy
 accuracy = accuracy_score(y_test, y_pred)
 
-print(accuracy)
-
-
+print("Accuracy Score: ",accuracy)
